@@ -6,7 +6,7 @@ import 'package:path/path.dart' as path;
 export 'package:logging/logging.dart' show Level;
 
 const znnSdkVersion = '0.0.4';
-const znnRootDirectory = 'znn';
+const znnRootDirectory = 'znn-devnet';
 
 class ZnnPaths {
   Directory main;
@@ -58,7 +58,7 @@ void ensureDirectoriesExist() {
   return;
 }
 
-int netId = 1; // Alphanet
+int netId = 2; // DevNet
 
 final logger = Logger('ZNN-SDK');
 
